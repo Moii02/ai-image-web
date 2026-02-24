@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 const app = express();
 app.use(express.json());
 
-const HF_API_KEY = "MASUKKAN_API_KEY_KAMU";
+const HF_API_KEY = "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";
 
 app.post("/generate", async (req, res) => {
   try {
